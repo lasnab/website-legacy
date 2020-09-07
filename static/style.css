@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 10px;
+    background: #fff;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-wrapper {
+    width: 100%;
+    text-align: center;
+}
+.headline {
+    color: blue;
+}
+
+.bio {
+    color: aqua;
+}
+
+.nav {
+    height: 2rem;
+    width: 100%;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 0.4em;
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    padding: 0.5rem 0.45rem;
+    max-width: 50rem;
+    width: 50rem;
+}
+.two-col {
+    display: flex;
+    justify-content: center;
+}
+.col-1 {
+    justify-content: center;
+    padding-right: 2rem ;
+}
+.col-2 {
+    padding-left: 1rem;
+}
+
+.headshot {
+    width: 12rem;
+}
+
+ul.skill-experience {
+    list-style-type: none;
+    padding: 0;
+}
