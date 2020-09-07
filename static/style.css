@@ -11,13 +11,16 @@ body {
 .header-wrapper {
     width: 100%;
     text-align: center;
+    /* background-color: #0b0b0b; */
 }
 .headline {
+    background-color:grey;
     color: blue;
 }
 
 .bio {
-    color: aqua;
+    background-color:grey;
+    color: blue;
 }
 
 .nav {
