@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 10px;
+    background: #fff;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-wrapper {
+    width: 100%;
+}
+
+.header {
+    height: 2rem;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+
+.nav {
+    /* height: 2rem; */
+    width: 100%;
+    background-color: #0b0b0b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 0.4em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    padding: 0.5rem 0.5rem;
+    max-width: 50rem;
+    width: 50rem;
+}
+.two-col {
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+.col-1 {
+    justify-content: center;
+    padding-right: 2rem ;
+}
+.col-2 {
+    padding-left: 1rem;
+}
+
+.headshot {
+    width: 12rem;
+}
+
+ul.skill-experience {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects {
+    padding-top: 3rem;
+    overflow-x: hidden;
+}
+.project-title a {
+    font-family: "Roboto";
+    font-size: 2em;
+    font-weight: bold;
+    color: #3a3a3a;
+    text-decoration: none;
+}
+.project-title a:hover {
+    color: #3a3a3a;
+    text-decoration: underline;
+    background-color: white;
+}
+.project-content {
+    padding-top: 1rem;
+}
+.project {
+    margin: 0 auto;
+    max-width: 50rem;
+    padding: 0rem 1rem;
+}
+.project-content img {
+    max-width: 30rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.project-content iframe {
+    padding-top: 1rem;
+    width: 100%;
+    max-width: 30rem;
+}
+.project-content video {
+    width: 100%;
+    max-width: 700px;
+}
